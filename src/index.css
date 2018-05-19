@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.box {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.box2 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.READ {
+  background-color: #ff0000;
+}
+.UNREAD {
+  background-color: #cccccc;
+  color: rgb(20, 12, 12) !important;
+}
+
+.UNREAD {
+  background-color: #ffffff;
+}
+
+.MARKED {
+  background-color: #c476e9;
+}
+
+.MARKED_AND_ANSWERED {
+  background-color: #5d0b83;
+}
+
+.ANSWERED {
+  background-color: #00ff00;
+}
+.list-group-item {
+  padding: 6px 10px !important;
+}
+
+.custom1 {
+  border: 0 !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.TIMER {
+  background-color: #ff0000;
+  color: #fff;
+  margin: 20px;
+}
